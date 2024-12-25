@@ -12,5 +12,16 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' }
   },
   css: ['@/assets/css/main.css'],
+  image: {
+    dir: 'assets/images'
+  },
+  fonts: {
+    families: [
+      { name: 'Satoshi', provider: 'fontshare' },
+      { name: 'Sentinel', provider: 'fontshare' },
+      { name: 'Work Sans', provider: 'fontshare' },
+      { name: 'JetBrains Mono', provider: 'fontshare' },
+    ]
+  }
 }
 )

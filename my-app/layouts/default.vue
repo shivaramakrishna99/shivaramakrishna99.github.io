@@ -1,7 +1,7 @@
 <template>
     <div>
         <Nav />
-        <main class="container mx-auto max-w-3xl p-4">
+        <main class="layout-container">
             <slot />
         </main>
         <Footer />
@@ -19,7 +19,4 @@ main {
     /* Adjust based on nav/footer height */
 }
 
-div {
-    font-family: Fraunces, sans-serif;
-}
 </style>

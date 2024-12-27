@@ -18,13 +18,13 @@
         @apply container mx-auto max-w-3xl p-4
         }
     h1 {
-      @apply text-4xl font-bold tracking-tight leading-tight sm:text-5xl;
+      @apply text-4xl py-4 font-bold tracking-tight leading-tight sm:text-5xl;
     }
     h2 {
-      @apply text-3xl font-semibold leading-tight sm:text-4xl;
+      @apply text-3xl py-4 font-semibold leading-tight sm:text-4xl;
     }
     h3 {
-      @apply text-2xl font-medium leading-snug sm:text-3xl;
+      @apply text-2xl py-2 font-medium leading-snug sm:text-3xl;
     }
     h4 {
       @apply text-xl font-medium leading-snug sm:text-2xl;
@@ -36,6 +36,15 @@
       @apply text-base font-medium leading-snug sm:text-lg;
     }
     p {
-      @apply text-base font-sans tracking-tight leading-relaxed text-gray-700 sm:text-lg;
+      @apply text-base py-2 sm:py-4 font-sans tracking-tight leading-relaxed text-gray-700 sm:text-lg;
+    }
+    a[href^="http"] {
+      @apply text-blue-900 underline;
+    }
+    ul {
+      @apply list-disc pl-4 py-2 sm:py-4;
+    }
+    code {
+      @apply whitespace-pre-wrap break-words;
     }
   }

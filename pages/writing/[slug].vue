@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>{{ article.title }}</h1>
-    <h1>{{ article.description }}</h1>
+    <h1 class="font-serif font-italic py-4">{{ article.title }}</h1>
+    <h5>{{ article.description }}</h5>
     <ContentDoc :document="article" />
   </div>
 </template>

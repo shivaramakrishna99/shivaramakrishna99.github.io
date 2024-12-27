@@ -1,12 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  target: 'static',
+  router: {
+     base: '/',
+  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxt/icon'
   ],
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
@@ -17,11 +22,16 @@ export default defineNuxtConfig({
   },
   fonts: {
     families: [
-      { name: 'Satoshi', provider: 'fontshare' },
-      { name: 'Sentinel', provider: 'fontshare' },
-      { name: 'Work Sans', provider: 'fontshare' },
-      { name: 'JetBrains Mono', provider: 'fontshare' },
+      { name: 'Satoshi', provider: 'fontshare' }, // sans
+      { name: 'Sentinel', provider: 'fontshare' }, // serif
+      { name: 'Work Sans', provider: 'fontshare' }, // display
+      { name: 'JetBrains Mono', provider: 'fontshare' }, // mono
     ]
+  },
+  content: {
+    highlight: {
+      theme: 'github-dark', // Optional: Choose a code highlighting theme
+    }
   }
 }
 )

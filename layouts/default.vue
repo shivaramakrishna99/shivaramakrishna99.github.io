@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="bg-yellow-50">
         <Nav />
-        <main class="layout-container">
+        <main class="layout-container pt-12">
             <slot />
         </main>
         <Footer />

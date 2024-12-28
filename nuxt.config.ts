@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   target: 'static',
   router: {
      base: '/',
+     buildAssetsDir: '/'
   },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },

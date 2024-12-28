@@ -3,7 +3,7 @@
     <div class="layout-container flex flex-col items-center sm:flex-row sm:justify-between">
     <NuxtLink to="/">
     <div class="flex items-center">
-      <NuxtImg src="/utils/srks.png" alt="Logo" class="h-8 w-8 mr-2" />
+      <NuxtImg src="/img/utils/srks.png" alt="Logo" class="h-8 w-8 mr-2" />
       <span class="text-xl font-bold">Shivaramakrishna</span>
     </div>
   </NuxtLink>

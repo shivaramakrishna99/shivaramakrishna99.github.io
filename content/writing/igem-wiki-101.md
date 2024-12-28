@@ -5,7 +5,7 @@ slug: "igem-wiki-101"
 created: 2024-14-23
 ---
 
-![How%20To%20Build%20Your%20Team%20Wiki%20and%20Other%20Useful%20Resou%2013cb043cb91c8026b427dfa34be091db/iGEM_GM_Promo_Post39.jpg](writing/igem-wiki-101/iGEM_GM_Promo_Post39.jpg)
+![How%20To%20Build%20Your%20Team%20Wiki%20and%20Other%20Useful%20Resou%2013cb043cb91c8026b427dfa34be091db/iGEM_GM_Promo_Post39.jpg](/img/writing/igem-wiki-101/iGEM_GM_Promo_Post39.jpg)
 
 <aside>
 👋 Hello iGEM Teams of 2020!  We hope you tuned into our workshop on how to build your team's wiki.  We, the **After iGEM Education Committee,** have quickly put together a handy guide of tips and tricks, best practices and other useful resources to supercharge your iGEM wiki making process.  We hope this guide defies the long running paradigm of coffee-fuelled all-nighters before the Wiki Freeze! 
@@ -113,7 +113,7 @@ Fonts can be downright unpleasing to look at (*cough...Comic Sans...cough)* or c
 > Excellent typography for your iGEM wiki is a visual ballad of three to four fonts in the right font sizes.
 > 
 
-![Common font types.  Source: Wikipedia](writing/igem-wiki-101/common-fonts.png)
+![Common font types.  Source: Wikipedia](/img/writing/igem-wiki-101/common-fonts.png)
 
 Common font types.  Source: Wikipedia
 

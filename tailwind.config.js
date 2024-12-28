@@ -12,10 +12,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Sentient', 'serif'], // Fallback to serif if Sentient is unavailable
-        sans: ['Satoshi', 'sans-serif'], // Fallback to sans-serif if Satoshi is unavailable
-        display: ['Work Sans', 'sans-serif'], // Work Sans for font-display
-        mono: ['JetBrains Mono', 'monospace'], // JetBrains Mono for font-mono
+        serif: ['Sentient'], // Fallback to serif if Sentient is unavailable
+        sans: ['Satoshi'], // Fallback to sans-serif if Satoshi is unavailable
+        display: ['Work Sans'], // Work Sans for font-display
+        mono: ['JetBrains Mono'], // JetBrains Mono for font-mono
       },
     },
   },

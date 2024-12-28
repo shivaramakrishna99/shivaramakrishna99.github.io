@@ -3,12 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run build",
-    "dev": "npm run dev",
-    "generate": "npm run generate",
-    "preview": "npm run preview",
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npm run generate && gh-pages -d .output/public"
+    "deploy": "nuxt generate && gh-pages -d .output/public"
   },
   "dependencies": {
     "@nuxt/content": "^2.13.4",

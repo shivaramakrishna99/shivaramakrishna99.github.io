@@ -47,4 +47,7 @@
     code {
       @apply whitespace-pre-wrap break-words;
     }
+    i, em {
+      @apply font-serif italic;
+    }
   }

@@ -1,7 +1,7 @@
 ---
-title: "iGEM: A springboard for diving into synbio"
-description: "A note on synthetic biology and iGEM for Tata Consultancy Services"
-slug: "igem-and-tcs"
+title: 'iGEM: A springboard for diving into synbio'
+description: 'A note on synthetic biology and iGEM for Tata Consultancy Services'
+slug: 'igem-and-tcs'
 created: 2024-14-23
 ---
 
@@ -29,14 +29,14 @@ For example, earlier this year, my team and I designed, developed, debugged, and
 
 ### **Cell-Free Systems**
 
-****All organisms are made of cells.  The information flow in a cell happens through DNA, RNA and proteins in that order.  Cell-free (protein) expression systems remove the unnecessary cellular overhead such as cell organelles, cytoplasm and cell membranes.  Instead, they retain only essential enzymes, amino acids, and ribosomes required for the synthesis of desired proteins.  We tested our six novel biological parts using a cell-free expression kit sponsored by **New England Biolabs**.  In essence, the new cell-free expression technologies are lighter and more efficient entities than cells.  They also blur the boundaries between biology and chemistry.
+\***\*All organisms are made of cells.  The information flow in a cell happens through DNA, RNA and proteins in that order.  Cell-free (protein) expression systems remove the unnecessary cellular overhead such as cell organelles, cytoplasm and cell membranes.  Instead, they retain only essential enzymes, amino acids, and ribosomes required for the synthesis of desired proteins.  We tested our six novel biological parts using a cell-free expression kit sponsored by **New England Biolabs\*\*.  In essence, the new cell-free expression technologies are lighter and more efficient entities than cells.  They also blur the boundaries between biology and chemistry.
 
 ### **Engineering Biology**
 
 Such stunning successes in SynBio are made possible by the application of computational principles and tools to develop a new ‘engineerable’ biology.  Research is driven by an iterative **design-build-test-learn** cycle.  Thus, any project in this emerging industry is invariably based on four steps:
 
 1. design phase - mathematical modelling and computational design of biological parts
-2. build phase -  *in vitro* synthesis and assembly of the parts 
+2. build phase -  _in vitro_ synthesis and assembly of the parts
 3. test phase - wet lab experimentation
 4. learn phase - analysis of experiments, redesign, and possible prototyping.
 
@@ -47,7 +47,7 @@ Such stunning successes in SynBio are made possible by the application of comput
 
 SynBio is already disrupting several industries including **food, energy, materials, agriculture, healthcare including diagnostics and therapeutics, textiles and fashion, information storage and even computing**.  TCS has several prominent customers in each of these industries.  Much as Industry 4.0 is built on IoT and automation, the SynBio revolution is powered by interdisciplinary paradigms.  It is enabling the production of hitherto ‘impossible’ products through innovative and planet-friendly processes; Impossible Burger to wit.  Genetically re-purposed platforms (chassis) are becoming efficient and scalable for products ranging from human breast milk to engineered spider silk.
 
-Scientists can not only create replicas of life itself but engineer novel life forms.  For example,  **Twist Biosciences,** a leading SynBio company, has synthesised, *de novo,* key segments of the new Wuhan Coronavirus genome.  Using this, some research groups claim to have now developed **functional vaccines** for the **Coronavirus** *in less than four days*.  This is an astonishing achievement made possible because of open access to the genome sequence.
+Scientists can not only create replicas of life itself but engineer novel life forms.  For example,  **Twist Biosciences,** a leading SynBio company, has synthesised, _de novo,_ key segments of the new Wuhan Coronavirus genome.  Using this, some research groups claim to have now developed **functional vaccines** for the **Coronavirus** _in less than four days_.  This is an astonishing achievement made possible because of open access to the genome sequence.
 
 Custom-designed, artificially synthesised DNA has become a commodity that may be ordered online.  Powerful sequencing devices are only slightly bigger than USB sticks.  Scientists have been routinely sequencing genomes in the middle of remote jungles.  Wet lab experiments can be done on the cloud with the assistance of robots.  Today, one can read, write, and edit biological code (perhaps) more easily than one wrote, and ran computer code fifty years ago in India.
 
@@ -69,10 +69,10 @@ iGEM’s main goals are to improve tools for engineering biology and manage the 
 
 In 2019, I led the first iGEM team from SASTRA University.  We won a Silver Award and nominated for Best Software.  The team from EPFL, Switzerland, won the Grand Prize.  Their project was very similar to ours but they had gone further and developed a paper-based sensor for disease detection in vineyards.  However, ours was the only few among 350 teams to apply Machine Learning techniques.
 
-As a team leader, I observed with keen interest the “iGEM model” of motivating several thousand young students across the world to work in teams, raise funds, **and** do substantial amounts of additional *yet* original academic research.  Furthermore, their processes ensured significant stakeholder consultation, and actively promoted periodic professional reviews.  On top of the data-driven approach driving the scientific rigour, there was an additional emphasis on proactive collaboration.  An unforgiving timeline to deliver results was the icing on the cake.
+As a team leader, I observed with keen interest the “iGEM model” of motivating several thousand young students across the world to work in teams, raise funds, **and** do substantial amounts of additional _yet_ original academic research.  Furthermore, their processes ensured significant stakeholder consultation, and actively promoted periodic professional reviews.  On top of the data-driven approach driving the scientific rigour, there was an additional emphasis on proactive collaboration.  An unforgiving timeline to deliver results was the icing on the cake.
 
 Seventeen Indian teams began the iGEM-2019, but only ten Indian teams completed the iGEM marathon successfully. In contrast, there were 150+ teams from China!  In total, about 200 Indian students with skills in computational biology, web development, biotechnology and biological engineering of systems participated in 2019.  The best SynBio talent with practical experience is to be found in the iGEM community.
 
 However, both the quantum and quality of Indian participation in iGEM has significant room to grow.  One of the major difficulties faced by Indian iGEM teams is the uncertainty around funding.  TCS could leverage the iGEM process, and underwrite the Indian teams for, say, five years.
 
-*Synthetic biology is truly fascinating and is bound to bring about a paradigm shift in the way we think about life and more...*
+_Synthetic biology is truly fascinating and is bound to bring about a paradigm shift in the way we think about life and more..._

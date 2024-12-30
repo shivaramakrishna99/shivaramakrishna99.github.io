@@ -22,6 +22,15 @@ main {
 </style> -->
 
 <template>
+    <head>
+        <title>Shivaramakrishna Srinivasan</title>
+        <meta name="description" content="In a scene from the Powers of Ten" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+        <Html lang="en" />
+        <Meta property="og:title" content="Shivaramakrishna" />
+        <Meta property="og:description" content="In a scene from the Powers of Ten" />
+    </head>
     <div class="flex flex-col min-h-screen bg-yellow-50">
         <!-- Sticky Header -->
         <div class="sticky top-0 z-10">

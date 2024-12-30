@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      theme: 'github-dark', // Optional: Choose a code highlighting theme
+      theme: 'github-light', // Optional: Choose a code highlighting theme
     }
   }
 }

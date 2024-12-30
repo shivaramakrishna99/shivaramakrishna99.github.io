@@ -15,7 +15,7 @@
 
 @layer base {
     .layout-container {
-        @apply container mx-auto max-w-3xl p-4
+        @apply container mx-auto max-w-3xl p-4 sm:p-6;
         }
     h1 {
       @apply text-4xl py-4 font-bold tracking-tight leading-tight sm:text-5xl;
@@ -38,8 +38,8 @@
     p {
       @apply text-base py-2 sm:py-4 font-sans tracking-tight leading-relaxed text-gray-700 sm:text-lg;
     }
-    a[href^="http"] {
-      @apply text-blue-900 underline;
+    a[href^="http"],a[href^="mailto"] {
+      @apply hover:text-cyan-500 transition duration-300 underline;
     }
     ul {
       @apply list-disc pl-4 py-2 sm:py-4;
@@ -49,5 +49,8 @@
     }
     i, em {
       @apply font-serif italic;
+    }
+    h1,h2,h3,h4,h5,h6,p,ul,ol {
+      @apply text-slate-700;
     }
   }

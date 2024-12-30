@@ -4,7 +4,7 @@
     <NuxtLink to="/">
     <div class="flex items-center">
       <NuxtImg src="/img/utils/srks.png" alt="Logo" class="h-10 w-10 mr-2" />
-      <span class="text-xl font-bold">Shivaramakrishna</span>
+      <span class="text-xl font-bold">Shivaramakrishna Srinivasan</span>
     </div>
   </NuxtLink>
     <nav class="flex items-start space-x-4">
@@ -12,7 +12,7 @@
         v-for="(item, index) in navItems"
         :key="index"
         :to="item.url"
-        class="rounded-lg pr-3 py-2 sm:py-10 font-sans font-extrabold text-slate-700 hover:text-sky-700 transition duration-300 ease-in-out"
+        class="rounded-lg pr-3 hover:text-cyan-500 transition duration-300 ease-in-out"
       >
         {{ item.title }}
       </NuxtLink>

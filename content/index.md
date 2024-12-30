@@ -1,5 +1,5 @@
-### Hello, I'm Shivaramakrishna Srinivasan.
-I also go by <i>Shiva</i>.
+## Hi, I'm Shivaramakrishna.
+### I also go by <i>Shiva</i>.
 
 I’m a second-year M.S. Bioengineering student at [UC San Diego](http://be.ucsd.edu) and a Graduate Student Researcher in the [Subramaniam Lab](https://genome.ucsd.edu/). 
 

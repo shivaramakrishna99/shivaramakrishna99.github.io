@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     }
   },
   head: {
-    title: 'My Website',
+    title: 'Shivaramakrishna',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -43,12 +43,12 @@ export default defineNuxtConfig({
       { name: 'keywords', content: 'nuxt, vue, javascript, awesome' },
       { name: 'author', content: 'Shivaramakrishna Srinivasan' },
       { name: 'robots', content: 'index, follow' },
-      { name: 'og:title', content: 'Shivaramakrishna Srinivasan' },
+      { name: 'og:title', content: 'Shivaramakrishna' },
       { name: 'og:description', content: 'In a scene 10m wide among the many Powers of Ten' },
       // { name: 'og:image', content: '/path/to/og-image.png' },
       { name: 'og:url', content: 'https://shivaramakrishna99.github.io' },
       // { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Shivaramakrishna Srinivasan' },
+      { name: 'twitter:title', content: 'Shivaramakrishna' },
       { name: 'twitter:description', content: 'In a scene 10m wide among the many Powers of Ten' },
       // { name: 'twitter:image', content: '/path/to/twitter-image.png' }
     ],

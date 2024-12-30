@@ -30,6 +30,7 @@ main {
         <Html lang="en" />
         <Meta property="og:title" content="Shivaramakrishna" />
         <Meta property="og:description" content="In a scene from the Powers of Ten" />
+        <Meta property="og:description" content="/favicon.ico" />
     </head>
     <div class="flex flex-col min-h-screen bg-yellow-50">
         <!-- Sticky Header -->

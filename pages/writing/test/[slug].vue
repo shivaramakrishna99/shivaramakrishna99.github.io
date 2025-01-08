@@ -23,7 +23,7 @@ const path = route.fullPath
 console.log("FULL PATH", path)
 
 // Fetch the content document
-const doc = await queryContent('writing').where({ slug }).findOne()
+const doc = await queryContent('writing','test').where({ slug }).findOne()
 
 if (!doc) {
   // Handle 404 if article is not found

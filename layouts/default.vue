@@ -13,7 +13,7 @@
   <!-- <Meta property="og:image" content="/favicon.ico" /> -->
   <!-- </head> -->
   <body>
-    <div class="flex flex-col min-h-screen bg-yellow-50">
+    <div class="flex flex-col min-h-screen bg-flexoki-paper">
       <!-- Sticky Header -->
       <div class="sticky top-0 z-10">
         <Nav />
@@ -25,7 +25,7 @@
       </main>
 
       <!-- Sticky Footer -->
-      <footer class="bg-yellow-50 shadow">
+      <footer class="bg-flexoki-paper shadow">
         <Footer />
       </footer>
     </div>

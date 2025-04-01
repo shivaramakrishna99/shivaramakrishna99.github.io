@@ -23,9 +23,9 @@ export default defineNuxtConfig({
   // },
   fonts: {
     families: [
-      { name: 'Satoshi', provider: 'fontshare' }, // sans
+      { name: 'IBM Plex Sans', provider: 'google' }, // sans
       { name: 'Sentinel', provider: 'fontshare' }, // serif
-      { name: 'Work Sans', provider: 'fontshare' }, // display
+      { name: 'Satoshi', provider: 'fontshare' }, // display
       { name: 'JetBrains Mono', provider: 'fontshare' }, // mono
     ],
   },

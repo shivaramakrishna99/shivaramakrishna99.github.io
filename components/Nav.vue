@@ -1,7 +1,7 @@
 <template>
-  <header class="bg-yellow-50">
+  <header class="bg-flexoki-paper">
     <div
-      class="layout-container flex flex-col space-y-2 items-start sm:items-center sm:flex-row sm:justify-between"
+      class="layout-container py-12 flex flex-col space-y-2 items-start sm:items-center sm:flex-row sm:justify-between"
     >
       <NuxtLink to="/">
         <div class="flex items-center">
@@ -10,7 +10,7 @@
             alt="Logo"
             class="h-10 w-10 mr-2"
           />
-          <span class="text-xl font-bold">Shivaramakrishna Srinivasan</span>
+          <span class="text-xl font-display">Shivaramakrishna Srinivasan</span>
         </div>
       </NuxtLink>
       <nav class="flex items-start space-x-4">

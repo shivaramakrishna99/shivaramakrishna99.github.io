@@ -21,19 +21,19 @@
 
   /* Headings */
   h1 {
-    @apply text-5xl pb-4 font-bold font-display tracking-tight leading-tight sm:text-6xl mb-6;
+    @apply text-4xl pb-4 font-sans italic tracking-tight leading-tight sm:text-5xl mb-6;
   }
   h2 {
-    @apply text-4xl pb-4 font-semibold font-display leading-tight sm:text-5xl mb-5;
+    @apply text-3xl pb-4 font-semibold leading-tight sm:text-4xl mb-5;
   }
   h3 {
-    @apply text-3xl pb-2 font-medium font-display leading-snug sm:text-4xl mb-4;
+    @apply text-2xl pb-4 font-bold tracking-tight font-sans leading-snug sm:text-3xl mb-4;
   }
   h4 {
-    @apply text-2xl font-medium leading-snug sm:text-3xl mb-3;
+    @apply text-xl font-light tracking-tight font-sans leading-snug sm:text-2xl mb-8;
   }
   h5 {
-    @apply text-xl font-medium leading-snug sm:text-2xl mb-2;
+    @apply text-lg font-medium leading-snug sm:text-xl mb-2;
   }
   h6 {
     @apply text-lg font-medium leading-snug sm:text-xl mb-2;
@@ -56,11 +56,11 @@
   /* Lists */
   ul,
   ol {
-    @apply list-disc pl-6 mb-4;
+    @apply list-disc mb-4;
   }
   ul li,
   ol li {
-    @apply text-base font-sans leading-relaxed text-gray-700 sm:text-lg;
+    @apply text-base font-sans leading-relaxed;
   }
 
   /* Blockquotes */
@@ -70,7 +70,7 @@
 
   /* Inline code */
   code {
-    @apply bg-gray-100 px-1 pb-0.5 rounded font-mono text-sm whitespace-pre-wrap break-words;
+    @apply px-1 pb-0.5 rounded font-mono text-sm whitespace-pre-wrap break-words;
   }
 
   /* Preformatted code blocks */
@@ -110,18 +110,25 @@
   }
 
   /* Headings and paragraph spacing */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply text-gray-900 mt-6;
-  }
   p,
   ul,
   ol,
   blockquote {
     @apply mt-4;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  li,
+  ol,
+  blockquote,
+  code
+  {
+  @apply text-flexoki-dark-ui dark:text-flexoki-light-ui;
   }
 }

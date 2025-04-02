@@ -1,11 +1,10 @@
-# Hi, I'm Shivaramakrishna. 👋🏼
-<i>sheeva</i>
+<h1 class="font-classic text-5xl sm:text-7xl">Hi, I'm Shiva.</h1>
 
-I’m a second-year M.S. Bioengineering student at [UC San Diego](http://be.ucsd.edu) and a graduate student researcher in the [Subramaniam Lab](https://genome.ucsd.edu/).
+I’m a second-year M.S. [Bioengineering](http://be.ucsd.edu) student at UC San Diego and a graduate student researcher in the [Subramaniam Lab](https://genome.ucsd.edu/).
 
-My research focuses on leveraging large language models for precise cell-type annotation in single-cell RNA-seq data. Additionally, I'm developing deep learning methods to characterize cellular states in disease progression for my master's thesis.
+My thesis project focuses on leveraging large language models (LLMs) for research focuses on leveraging large language models for precise cell state identification in single-cell RNA-seq data.
 
-I am interested in biology, programming, and typography.
+I am interested in biology, programming, and design.
 
 Feel free to explore my corner of the internet.
 

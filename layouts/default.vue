@@ -1,30 +1,16 @@
 <template>
-  <!-- <head> -->
-  <!-- <title>Shivaramakrishna Srinivasan</title> -->
-  <!-- <meta name="description" content="In a scene from the Powers of Ten" /> -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-  <!-- <link rel="icon" href="/favicon.ico" /> -->
-  <!-- <Html lang="en" /> -->
-  <!-- <Meta property="og:title" content="Shivaramakrishna" /> -->
-  <!-- <Meta
-      property="og:description"
-      content="In a scene from the Powers of Ten"
-    /> -->
-  <!-- <Meta property="og:image" content="/favicon.ico" /> -->
-  <!-- </head> -->
   <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg text-flexoki-dark-ui dark:text-flexoki-light-ui">
     <div class="flex flex-col min-h-screen">
-      <!-- Sticky Header -->
-      <div class="sticky top-0 z-10">
+      <nav>
+        <div class="sticky top-0 z-10">
         <Nav />
-      </div>
+        </div>
+      </nav>
 
-      <!-- Main Content -->
       <main class="flex-grow layout-container pt-12">
         <slot />
       </main>
-
-      <!-- Sticky Footer -->
+      
       <footer>
         <Footer />
       </footer>
@@ -42,12 +28,25 @@ footer {
 
 <script setup>
 useSeoMeta({
-  title: 'Shivaramakrishna Srinivasan',
-  ogTitle: 'Shivaramakrishna Srinivasan',
-  description: 'In a scene from the Powers of Ten',
-  ogDescription: 'In a scene from the Powers of Ten',
-  ogImage:
-    'https://github.com/shivaramakrishna99/shivaramakrishna99.github.io/blob/main/public/img/utils/srks.png',
+  // Basic metadata
+  title: 'Shivaramakrishna ivasan',
+  description: 'Exploring the infinite scales of the Powers of Ten.',
+
+  // Open Graph (OG) metadata for link previews
+  ogTitle: 'srks',
+  ogDescription: 'Exploring the infinite scales of the Powers of Ten.',
+  ogImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
+  ogUrl: 'https://shivaramakrishna99.github.io',
+
+  // Twitter Card metadata
   twitterCard: 'summary_large_image',
+  twitterTitle: 'srks',
+  twitterDescription: 'Exploring the infinite scales of the Powers of Ten.',
+  twitterImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
+
+  // Additional metadata
+  keywords: 'Shivaramakrishna, Powers of Ten, Nuxt, Vue, Portfolio',
+  author: 'srks',
+  robots: 'index, follow',
 })
 </script>

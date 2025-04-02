@@ -45,7 +45,7 @@ export default defineNuxtConfig({
         content: 'In a scene 10m wide among the many Powers of Ten',
       },
       { name: 'keywords', content: 'nuxt, vue, javascript, awesome' },
-      { name: 'author', content: 'Shivaramakrishna Srinivasan' },
+      { name: 'author', content: 'srks' },
       { name: 'robots', content: 'index, follow' },
       { name: 'og:title', content: 'Shivaramakrishna' },
       {

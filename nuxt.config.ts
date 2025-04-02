@@ -21,14 +21,14 @@ export default defineNuxtConfig({
   // image: {
   //   dir: '@/assets/images'
   // },
-  fonts: {
-    families: [
-      { name: 'IBM Plex Sans', provider: 'google' }, // sans
-      { name: 'Sentinel', provider: 'fontshare' }, // serif
-      { name: 'Satoshi', provider: 'fontshare' }, // display
-      { name: 'JetBrains Mono', provider: 'fontshare' }, // mono
-    ],
-  },
+  // fonts: {
+  //   families: [
+  //     { name: 'IBM Plex Sans', provider: 'google' }, // sans
+  //     { name: 'IBM Plex Serif', provider: 'google' }, // serif
+  //     { name: 'IBM Plex Mono', provider: 'google' }, // mono
+  //     { name: 'Manrope', provider: 'google' }, // display
+  //   ],
+  // },
   content: {
     highlight: {
       theme: 'github-light', // Optional: Choose a code highlighting theme
@@ -50,7 +50,7 @@ export default defineNuxtConfig({
       { name: 'og:title', content: 'Shivaramakrishna' },
       {
         name: 'og:description',
-        content: 'In a scene 10m wide among the many Powers of Ten',
+        content: 'Usually found in a scene 10m wide among the many Powers of Ten',
       },
       // { name: 'og:image', content: '/path/to/og-image.png' },
       { name: 'og:url', content: 'https://shivaramakrishna99.github.io' },

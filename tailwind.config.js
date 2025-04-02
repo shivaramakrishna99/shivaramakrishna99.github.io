@@ -13,10 +13,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['Sentient'], // Fallback to serif if Sentient is unavailable
-        sans: ['IBM Plex Sans'], // Fallback to sans-serif if Inter is unavailable
-        display: ['Satoshi'], // Satoshi for font-display
-        mono: ['JetBrains Mono'], // JetBrains Mono for font-mono
+        sans: ['IBM Plex Sans'],
+        mono: ['IBM Plex Mono'],
+        serif: ['Newsreader'],
+        title: ['Manrope'],
+        classic: ['Instrument Serif'],
       },
       colors: {
         flexoki: {

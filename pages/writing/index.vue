@@ -25,7 +25,7 @@
     <div class="text-center" v-else>
       <h3>🚧</h3>
       <h3>
-        articles are under construction! <br />
+        Articles are being written! <br />
         Check back soon for some cool things I've done.
       </h3>
     </div>

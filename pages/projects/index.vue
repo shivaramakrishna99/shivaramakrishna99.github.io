@@ -8,11 +8,10 @@
       </li>
     </ul>
     <div class="text-center" v-else>
-      <h3>🚧</h3>
-      <h3 class="font-classic italic">
+      <h2 class="font-classic italic">
         Projects are under construction! <br />
         Check back soon for some cool things I've done.
-      </h3>
+      </h2>
     </div>
   </div>
 </template>

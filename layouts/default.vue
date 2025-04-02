@@ -12,8 +12,8 @@
     /> -->
   <!-- <Meta property="og:image" content="/favicon.ico" /> -->
   <!-- </head> -->
-  <body>
-    <div class="flex flex-col min-h-screen bg-flexoki-paper">
+  <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg text-flexoki-dark-ui dark:text-flexoki-light-ui">
+    <div class="flex flex-col min-h-screen">
       <!-- Sticky Header -->
       <div class="sticky top-0 z-10">
         <Nav />
@@ -25,7 +25,7 @@
       </main>
 
       <!-- Sticky Footer -->
-      <footer class="bg-flexoki-paper shadow">
+      <footer>
         <Footer />
       </footer>
     </div>

@@ -1,15 +1,25 @@
 <template>
   <div>
-    <h1>Writing</h1>
-    <ul class="text-lg sm:text-xl space-y-4" v-if="articles.length">
+    <h3>Writing</h3>
+    <ul class="space-y-4 list-none indent-0" v-if="articles.length">
       <li
-        class="underline hover:text-cyan-500 transition duration-300 ease-in-out"
+        class="hover:text-flexoki-light-bl transition duration-300 ease-in-out"
         v-for="article in articles"
         :key="article.slug"
       >
-        <NuxtLink :to="`/writing/${article.slug}`">{{
+      <span class="font-mono">
+      {{
+          article.created
+          }}
+          &#8226;
+        </span>
+        <span class="underline">
+        <NuxtLink :to="`/writing/${article.slug}`">
+          {{
           article.title
-        }}</NuxtLink>
+          }}
+        </NuxtLink>
+      </span> 
       </li>
     </ul>
     <div class="text-center" v-else>

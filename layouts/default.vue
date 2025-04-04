@@ -1,5 +1,5 @@
 <template>
-  <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg text-flexoki-dark-ui dark:text-flexoki-light-ui">
+  <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 text-flexoki-dark-ui dark:text-flexoki-light-ui">
     <div class="flex flex-col min-h-screen">
       <nav>
         <div class="sticky top-0 z-10">

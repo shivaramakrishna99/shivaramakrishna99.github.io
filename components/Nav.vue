@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg bg-opacity-50 dark:bg-opacity-50 backdrop-blur-md dark:backdrop-blur bg-clip-padding border-none sm:border-2 border-flexoki-light-bg-2 dark:border-flexoki-dark-bg-2 rounded-3xl mt-2 sm:mt-6 py-2 sm:py-6 mx-auto max-w-5xl">
+    <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-md dark:backdrop-blur bg-clip-padding border-none sm:border-2 border-flexoki-light-bg-2 dark:border-flexoki-dark-bg-2-2 rounded-3xl mt-2 sm:mt-6 py-2 sm:py-6 mx-auto max-w-5xl">
     <div
     class="layout-container  flex flex-col space-y-2 items-start sm:items-center sm:flex-row sm:justify-between"
     >

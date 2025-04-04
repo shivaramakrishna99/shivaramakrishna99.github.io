@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="py-3 border-t-2 border-t-flexoki-light-bg-2 dark:border-t-flexoki-dark-bg-2">
+    <div class="py-3 border-t-2 border-t-flexoki-light-bg-2 dark:border-t-flexoki-dark-bg-2-2">
       <div class="layout-container">
         <div class="flex justify-between text-sm sm:text-base text-flexoki-semantic-text-muted">
           <div>

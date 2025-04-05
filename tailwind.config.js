@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {},
   },
-  
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {

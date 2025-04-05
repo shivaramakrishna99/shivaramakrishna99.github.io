@@ -23,6 +23,15 @@
         >
           {{ item.title }}
         </NuxtLink>
+        <button
+            @click="toggleDarkMode"
+            class="rounded-lg text-gray-800 dark:text-gray-200 transition duration-300"
+          >
+            <Icon
+              name="mdi:theme-light-dark"
+              size="24px"
+            />
+          </button>
       </nav>
     </div>
   </div>
@@ -38,6 +47,32 @@ export default {
         { title: 'Writing', url: '/writing' },
         // { title: 'Resume', url: '/resume' },
       ],
+    }
+  },
+  computed: {
+    isDarkMode() {
+      return document.documentElement.classList.contains('dark')
+    },
+  },
+  methods: {
+    toggleDarkMode() {
+      const html = document.documentElement
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark')
+        localStorage.setItem('theme', 'light')
+      } else {
+        html.classList.add('dark')
+        localStorage.setItem('theme', 'dark')
+      }
+    },
+  },
+  mounted() {
+    // Initialize theme based on localStorage
+    const savedTheme = localStorage.getItem('theme')
+    if (savedTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
     }
   },
 }

@@ -30,6 +30,12 @@ export default defineNuxtConfig({
   //   ],
   // },
   content: {
+    markdown: {
+      toc: {
+        depth: 3, // Generate TOC up to h3 headings
+        searchDepth: 3, // Search for headings up to h3
+      },
+    },
     highlight: {
       theme: 'github-light', // Optional: Choose a code highlighting theme
     },

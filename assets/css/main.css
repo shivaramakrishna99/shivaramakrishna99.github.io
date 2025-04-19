@@ -20,36 +20,37 @@
   }
 
   /* Headings */
-  h1 {
-    @apply text-4xl pb-4 font-sans italic tracking-tight leading-tight sm:text-5xl mb-6;
-  }
-  h2 {
-    @apply text-3xl pb-4 font-semibold leading-tight sm:text-4xl mb-5;
-  }
-  h3 {
-    @apply text-2xl pb-4 font-bold tracking-tight font-sans leading-snug sm:text-3xl mb-4;
-  }
-  h4 {
-    @apply text-xl font-light tracking-tight font-sans leading-snug sm:text-2xl mb-8;
-  }
-  h5 {
-    @apply text-lg font-medium leading-snug sm:text-xl mb-2;
-  }
-  h6 {
-    @apply text-lg font-medium leading-snug sm:text-xl mb-2;
-  }
+  /* Headings */
+h1 {
+  @apply text-5xl font-classic italic leading-tight sm:text-7xl mb-12;
+}
+h2 {
+  @apply text-4xl font-semibold font-classic italic tracking-tight leading-snug sm:text-6xl mb-10;
+}
+h3 {
+  @apply text-3xl font-medium font-classic italic tracking-normal leading-snug sm:text-5xl mb-8;
+}
+h4 {
+  @apply text-2xl font-medium font-serif italic tracking-normal leading-snug sm:text-4xl mb-6;
+}
+h5 {
+  @apply text-xl font-light font-sans tracking-tight leading-relaxed sm:text-3xl mb-4;
+}
+h6 {
+  @apply text-lg font-medium font-serif italic tracking-normal leading-relaxed sm:text-2xl mb-2;
+}
 
-  /* Paragraphs */
-  p {
-    @apply text-base pb-2 sm:pb-4 font-sans font-normal tracking-tight leading-relaxed text-gray-700 sm:text-lg mb-4;
-  }
+/* Paragraphs */
+p {
+  @apply text-base sm:text-lg font-sans font-normal leading-relaxed text-gray-800 dark:text-gray-300 mb-6;
+}
+p i, p em {
+  @apply font-serif text-lg sm:text-xl italic;
+}
 
-  /* Links */
-  /* a {
-    @apply hover:text-flexoki-light-bl-2 underline transition duration-200 ease-in-out;
-  } */
-  a[href^='http'],
-  a[href^='mailto'] {
+/* Links */
+
+a[href^='http'], a[href^='mailto'] {
     @apply hover:text-flexoki-light-bl-2 underline transition duration-200 ease-in-out;
   }
 

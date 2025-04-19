@@ -1,22 +1,38 @@
 <template>
   <div>
-    <ul v-if="projects.length">
-      <li v-for="project in projects" :key="project.slug">
-        <NuxtLink :to="`/projects/${project.slug}`">{{
+    <h3>Projects</h3>
+    <ul class="space-y-4 list-none indent-0" v-if="projects.length">
+      <li
+        class="hover:text-flexoki-light-bl transition duration-300 ease-in-out"
+        v-for="project in projects"
+        :key="project.slug"
+      >
+      <span class="font-mono">
+      {{
+          project.created
+          }}
+          &#8226;
+        </span>
+        <span class="underline">
+        <NuxtLink :to="`/projects/${project.slug}`">
+          {{
           project.title
-        }}</NuxtLink>
+          }}
+        </NuxtLink>
+      </span> 
       </li>
     </ul>
     <div class="text-center" v-else>
-      <h2 class="font-classic italic">
-        Projects are under construction! <br />
+      <h3>🚧</h3>
+      <h3>
+        Projects are being written up! <br />
         Check back soon for some cool things I've done.
-      </h2>
+      </h3>
     </div>
   </div>
 </template>
 
 <script setup>
-// Fetch all articles in the `projects` folder
+// Fetch all projects in the `projects` folder
 const projects = await queryContent('projects').find()
 </script>

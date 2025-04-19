@@ -2,7 +2,7 @@
   <footer>
     <div class="py-12">
       <div class="layout-container">
-        <h4>@connect</h4>
+        <h5>Connect</h5>
         <div class="flex flex-col space-y-2 sm:justify-between items-start">
           <div class="flex justify-start items-center space-x-4">
             <a
@@ -74,14 +74,14 @@
         </div>
       </div>
     </div>
-    <div class="py-3 border-t-2 border-t-flexoki-light-bg-2 dark:border-t-flexoki-dark-bg-2-2">
+    <div class="py-3 border-t-2 border-t-flexoki-light-bg-2 dark:border-t-flexoki-dark-ui-2">
       <div class="layout-container">
         <div class="flex justify-between text-sm sm:text-base text-flexoki-semantic-text-muted">
           <div>
             <span class="font-serif italic">In a 10<sup>1</sup>m frame among the many Powers of Ten</span>
           </div>
           <div>
-            <span class="font-mono">{{ currentMonth }} {{ currentYear }}</span>
+            <span class="font-mono text-xs sm:text-sm">{{ currentMonth }} {{ currentYear }}</span>
           </div>
         </div>
       </div>

@@ -1,0 +1,4 @@
+---
+title: Goalgi
+slug: goalgi
+---

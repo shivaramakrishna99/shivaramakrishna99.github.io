@@ -1,7 +1,7 @@
 ---
 title: Shivaramakrishna Srinivasan
 ---
-# Hi, I'm Shiva!
+## Hi, I'm Shiva.
 
 I’m a second-year M.S. [Bioengineering](http://be.ucsd.edu) student at UC San Diego and a graduate student researcher in the [Subramaniam Lab](https://genome.ucsd.edu/).
 
@@ -13,7 +13,7 @@ Feel free to explore my corner of the internet.
 
 ---
 
-##### Now
+### Now
 
 I am also a Teaching Assistant for *Prof. Terry Sejnowski* in his *Computational Systems Neurobiology* Course.
 

@@ -2,7 +2,7 @@
   <footer>
     <div class="py-12">
       <div class="layout-container">
-        <h3>Connect</h3>
+        <h5>Connect</h5>
         <div class="flex flex-col space-y-2 sm:justify-between items-start">
           <div class="flex justify-start items-center space-x-4">
             <a

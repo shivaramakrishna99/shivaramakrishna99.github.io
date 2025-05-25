@@ -1,75 +1,39 @@
-# Nuxt Minimal Starter
+# Personal Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome! This is the source code for my personal website and portfolio. View the live site at [https://srks.me](https://srks.me)
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- **About & Projects:** Learn more about me, my research, and my projects.
+- **Writing:** Blog and notes.
+- **Dark Mode:** Toggle between light and dark themes.
+- **SEO & Social Previews:** Optimized for sharing and search engines. (WIP)
+- **Table of Contents:** Auto-generated TOC for long articles. (WIP)
+- **Copy-to-Clipboard:** Easily copy my email from the footer.
+
+## Stack
+
+- [Nuxt 3](https://nuxt.com/) (Vue 3)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [@nuxt/content](https://content.nuxt.com/) for Markdown-based content
+- [GitHub Pages](https://pages.github.com/) for deployment
+
+
+## Local Development (so I don't forget)
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start the development server
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Deployment
+This site is automatically deployed via GitHub Pages on every push to main.
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Content Structure
+/content — Markdown files for pages, projects, and blog posts
+/components — Vue components (Nav, Footer, TOC, etc.)
+/assets/css/main.css — Custom Tailwind CSS styles

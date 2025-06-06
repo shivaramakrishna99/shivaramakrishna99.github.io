@@ -15,7 +15,7 @@ Feel free to explore my corner of the internet.
 
 ### Now
 
-I am also a Teaching Assistant for *Prof. Terry Sejnowski* in his *Computational Systems Neurobiology* Course.
+I am also a Teaching Assistant to *Prof. Terry Sejnowski* in his *Computational Systems Neurobiology* Course.
 
 ---
 

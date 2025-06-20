@@ -1,5 +1,6 @@
 <template>
   <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 text-flexoki-dark-ui dark:text-flexoki-light-ui">
+    <BackToTop />
     <div class="flex flex-col min-h-screen">
       <nav>
         <div class="sticky top-0 z-10">
@@ -27,6 +28,8 @@ footer {
 </style>
 
 <script setup>
+import BackToTop from '~/components/BackToTop.vue';
+
 useSeoMeta({
   // Basic metadata
   title: 'Shivaramakrishna ivasan',

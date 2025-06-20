@@ -1,7 +1,7 @@
 <template>
   <div>
     <ContentDoc path="/" />
-    <!-- <section class="pb-12">
+    <section class="pb-12">
       <h2>Projects</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div
@@ -38,12 +38,13 @@
           </a>
         </div>
       </div>
-    </section> -->
+    </section>
   </div>
 </template>
 
 <script setup>
 const writing = await queryContent('writing').find()
 const projects = await queryContent('projects').find()
-
 </script>
+
+

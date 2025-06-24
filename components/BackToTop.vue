@@ -6,7 +6,7 @@
       class="fixed bottom-8 right-8 z-50 transition"
       aria-label="Back to top"
     >
-    <Icon name="typcn:arrow-up" class="h-12 w-12 text-flexoki-base-900" />
+    <Icon name="typcn:arrow-up" class="h-12 w-12 text-flexoki-dark-ui-3 dark:text-flexoki-light-ui-3 shadow-lg" />
     </button>
   </transition>
 </template>

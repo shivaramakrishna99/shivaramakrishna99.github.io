@@ -1,5 +1,5 @@
 <template>
-  <body class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 text-flexoki-dark-ui dark:text-flexoki-light-ui">
+  <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 text-flexoki-dark-ui dark:text-flexoki-light-ui">
     <BackToTop />
     <div class="flex flex-col min-h-screen">
       <nav>
@@ -16,7 +16,7 @@
         <Footer />
       </footer>
     </div>
-  </body>
+  </div>
 </template>
 
 <style scoped>

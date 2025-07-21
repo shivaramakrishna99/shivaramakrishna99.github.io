@@ -11,7 +11,8 @@
             alt="Logo"
             class="h-8 w-8 sm:h-10 sm:w-10 mr-2 rounded-full shadow-none"
           />
-          <span class="text-lg sm:text-xl font-title">Shivaramakrishna Srinivasan</span>
+          <span class="hidden sm:text-xl font-title">Shivaramakrishna Srinivasan</span>
+          <span class="text-lg sm:hidden font-title">Shiva Srinivasan</span>
         </div>
       </NuxtLink>
       <nav class="flex items-start space-x-4">

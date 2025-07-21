@@ -48,7 +48,7 @@ export default defineNuxtConfig({
       {
         hid: 'description',
         name: 'description',
-        content: 'In a scene 10m wide among the many Powers of Ten',
+        content: 'Lounging in a 10m frame within the many Powers of Ten',
       },
       { name: 'keywords', content: 'nuxt, vue, javascript, awesome' },
       { name: 'author', content: 'srks' },
@@ -56,7 +56,7 @@ export default defineNuxtConfig({
       { name: 'og:title', content: 'Shivaramakrishna' },
       {
         name: 'og:description',
-        content: 'Usually found in a scene 10m wide among the many Powers of Ten',
+        content: 'Lounging in a 10m frame within the many Powers of Ten',
       },
       // { name: 'og:image', content: '/path/to/og-image.png' },
       { name: 'og:url', content: 'https://shivaramakrishna99.github.io' },
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
       { name: 'twitter:title', content: 'Shivaramakrishna' },
       {
         name: 'twitter:description',
-        content: 'In a scene 10m wide among the many Powers of Ten',
+        content: 'Lounging in a 10m frame within the many Powers of Ten',
       },
       // { name: 'twitter:image', content: '/path/to/twitter-image.png' }
     ],

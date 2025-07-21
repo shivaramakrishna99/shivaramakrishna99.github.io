@@ -34,18 +34,18 @@ import BackToTop from '~/components/BackToTop.vue';
 useSeoMeta({
   // Basic metadata
   title: 'Shivaramakrishna Srinivasan',
-  description: 'Exploring the infinite scales of the Powers of Ten.',
+  description: 'Lounging in a 10m frame within the many Powers of Ten',
 
   // Open Graph (OG) metadata for link previews
   ogTitle: 'srks',
-  ogDescription: 'Exploring the infinite scales of the Powers of Ten.',
+  ogDescription: 'Lounging in a 10m frame within the many Powers of Ten',
   ogImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
   ogUrl: 'https://shivaramakrishna99.github.io',
 
   // Twitter Card metadata
   twitterCard: 'summary_large_image',
   twitterTitle: 'srks',
-  twitterDescription: 'Exploring the infinite scales of the Powers of Ten.',
+  twitterDescription: 'Lounging in a 10m frame within the many Powers of Ten',
   twitterImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
 
   // Additional metadata

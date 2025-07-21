@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 text-flexoki-dark-ui dark:text-flexoki-light-ui">
+  <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg text-flexoki-dark-ui dark:text-flexoki-light-ui">
     <BackToTop />
     <div class="flex flex-col min-h-screen">
       <nav>
@@ -25,6 +25,7 @@ header,
 footer {
   z-index: 10;
 }
+
 </style>
 
 <script setup>
@@ -32,7 +33,7 @@ import BackToTop from '~/components/BackToTop.vue';
 
 useSeoMeta({
   // Basic metadata
-  title: 'Shivaramakrishna ivasan',
+  title: 'Shivaramakrishna Srinivasan',
   description: 'Exploring the infinite scales of the Powers of Ten.',
 
   // Open Graph (OG) metadata for link previews

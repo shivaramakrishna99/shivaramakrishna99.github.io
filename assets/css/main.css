@@ -19,19 +19,26 @@
     @apply container mx-auto max-w-4xl px-6 sm:px-8 lg:px-12;
   }
 
+html,
+body {
+  background-color: #fffcf0; /* Use your flexoki-light-bg color */
+}
+.dark html {
+  background-color: #100f0f; /* Use your flexoki-dark-bg color */
+}
   /* Headings */
   /* Headings */
 h1 {
   @apply text-5xl font-classic italic leading-tight sm:text-7xl mb-12;
 }
 h2 {
-  @apply text-4xl font-semibold font-classic italic tracking-tight leading-snug sm:text-6xl mb-10;
+  @apply text-4xl font-semibold font-classic italic leading-snug sm:text-6xl mb-10;
 }
 h3 {
   @apply text-3xl font-medium font-classic italic tracking-normal leading-snug sm:text-5xl mb-8;
 }
 h4 {
-  @apply text-2xl font-medium font-serif italic tracking-normal leading-snug sm:text-4xl mb-6;
+  @apply text-2xl font-serif tracking-tight leading-snug sm:text-4xl mb-6;
 }
 h5 {
   @apply text-xl font-light font-sans tracking-tight leading-relaxed sm:text-3xl mb-4;
@@ -42,10 +49,10 @@ h6 {
 
 /* Paragraphs */
 p {
-  @apply text-base sm:text-lg font-sans font-normal leading-relaxed text-gray-800 dark:text-gray-300 mb-6;
+  @apply text-sm sm:text-base font-sans font-normal leading-relaxed mb-6;
 }
 p i, p em {
-  @apply font-serif text-lg sm:text-xl italic;
+  @apply font-serif text-base sm:text-lg italic;
 }
 
 /* Links */
@@ -132,4 +139,15 @@ a[href^='http'], a[href^='mailto'] {
   {
   @apply text-flexoki-dark-ui dark:text-flexoki-light-ui;
   }
+
+  p,
+  ul,
+  li,
+  ol,
+  blockquote,
+  code
+  {
+  @apply text-flexoki-dark-ui-2 dark:text-flexoki-light-tx-3;
+  }
 }
+

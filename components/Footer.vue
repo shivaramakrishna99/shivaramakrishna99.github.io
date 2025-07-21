@@ -49,10 +49,10 @@
             >
               <Icon
                 name="tabler:copy"
-                size="12px"
+                size="14px"
                 class="text-flexoki-dark-ui dark:text-flexoki-light-ui transform hover:scale-95 hover:text-flexoki-dark-ui dark:text-flexoki-light-ui transition duration-300"
               />
-              <span v-if="copied.email1" class=" text-flexoki-light-ui-3">Copied!</span>
+              <span v-if="copied.email1" class=" pl-2 text-flexoki-light-tx dark:text-flexoki-dark-tx font-mono">Copied!</span>
             </button>
           </p>
           <p class="text-sm flex items-center space-x-2">
@@ -65,10 +65,10 @@
             >
               <Icon
                 name="tabler:copy"
-                size="12px"
+                size="14px"
                 class="text-flexoki-dark-ui dark:text-flexoki-light-ui transform hover:scale-95 hover:text-flexoki-dark-ui dark:text-flexoki-light-ui transition duration-300"
               />
-              <span v-if="copied.email2" class="text-flexoki-light-ui-3">Copied!</span>
+              <span v-if="copied.email2" class=" pl-2 text-flexoki-light-tx dark:text-flexoki-dark-tx font-mono">Copied!</span>
             </button>
           </p>
         </div>

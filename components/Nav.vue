@@ -1,17 +1,17 @@
 <template>
   <header>
-    <div class="bg-flexoki-light-bg dark:bg-flexoki-dark-bg-2 bg-opacity-50 dark:bg-opacity-50 backdrop-blur-md dark:backdrop-blur bg-clip-padding border-none sm:border-2 border-flexoki-light-bg-2 dark:border-flexoki-dark-bg-2-2 rounded-3xl mt-2 sm:mt-6 py-2 sm:py-6 mx-auto max-w-5xl">
+    <div class="mt-4 sm:mt-8 py-2 sm:py-6 mx-auto max-w-5xl">
     <div
-    class="layout-container  flex flex-col space-y-2 items-start sm:items-center sm:flex-row sm:justify-between"
+    class="layout-container flex flex-row space-y-2 items-center justify-between"
     >
       <NuxtLink to="/">
         <div class="flex items-center">
           <NuxtImg
             src="/img/utils/srks.png"
             alt="Logo"
-            class="h-10 w-10 mr-2 rounded-full shadow-none"
+            class="h-8 w-8 sm:h-10 sm:w-10 mr-2 rounded-full shadow-none"
           />
-          <span class="text-xl font-title font-medium">Shivaramakrishna Srinivasan</span>
+          <span class="text-lg sm:text-xl font-title">Shivaramakrishna Srinivasan</span>
         </div>
       </NuxtLink>
       <nav class="flex items-start space-x-4">
@@ -28,7 +28,7 @@
             class="rounded-lg text-gray-800 dark:text-gray-200 transition duration-300"
           >
             <Icon
-              name="mdi:theme-light-dark"
+              name="proicons:dark-theme"
               size="24px"
             />
           </button>
@@ -43,8 +43,8 @@ export default {
   data() {
     return {
       navItems: [
-        { title: 'Projects', url: '/projects' },
-        { title: 'Writing', url: '/writing' },
+        // { title: 'Projects', url: '/projects' },
+        { title: 'Blog', url: '/writing' },
         // { title: 'Resume', url: '/resume' },
       ],
     }

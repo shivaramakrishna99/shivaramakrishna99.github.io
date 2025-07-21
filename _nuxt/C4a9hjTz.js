@@ -1,1 +1,0 @@
-import{_ as n,c as o,o as s,a4 as r}from"./BLXmp-5d.js";const c={};function t(e,a){return s(),o("code",null,[r(e.$slots,"default")])}const _=Object.assign(n(c,[["render",t]]),{__name:"ProseCodeInline"});export{_ as default};

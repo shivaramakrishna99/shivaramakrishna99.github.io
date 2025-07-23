@@ -76,7 +76,7 @@
     </div>
     <div class="py-3 border-t-2 border-t-flexoki-light-bg-2 dark:border-t-flexoki-dark-ui-2">
       <div class="layout-container">
-        <div class="flex justify-between text-sm sm:text-base text-flexoki-semantic-text-muted">
+        <div class="flex justify-between items-center text-sm sm:text-base text-flexoki-semantic-text-muted">
           <div>
             <span class="font-serif italic">Lounging in a 10<sup>1</sup>m frame within <br class="inline sm:hidden">the many Powers of Ten</span>
           </div>

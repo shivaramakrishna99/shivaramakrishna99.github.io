@@ -19,12 +19,12 @@
     @apply container mx-auto max-w-4xl px-6 sm:px-8 lg:px-12;
   }
 
-html,
-body {
-  background-color: #fffcf0; /* Use your flexoki-light-bg color */
+body
+{
+  background-color: #fffcf0; /*  Use your flexoki-light-bg color */
 }
-.dark html {
-  background-color: #100f0f; /* Use your flexoki-dark-bg color */
+.dark body {
+  background-color: #1c1b1a; /* Use your flexoki-dark-bg color */
 }
   /* Headings */
   /* Headings */

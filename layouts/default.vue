@@ -37,20 +37,20 @@ useSeoMeta({
   description: 'Lounging in a 10m frame within the many Powers of Ten',
 
   // Open Graph (OG) metadata for link previews
-  ogTitle: 'srks',
+  ogTitle: 'Shivaramakrishna Srinivasan',
   ogDescription: 'Lounging in a 10m frame within the many Powers of Ten',
   ogImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
   ogUrl: 'https://shivaramakrishna99.github.io',
 
   // Twitter Card metadata
   twitterCard: 'summary_large_image',
-  twitterTitle: 'srks',
+  twitterTitle: 'Shivaramakrishna Srinivasan',
   twitterDescription: 'Lounging in a 10m frame within the many Powers of Ten',
   twitterImage: 'https://shivaramakrishna99.github.io/img/utils/srks.png',
 
   // Additional metadata
-  keywords: 'Shivaramakrishna, Powers of Ten, Nuxt, Vue, Portfolio',
-  author: 'srks',
+  keywords: 'Shivaramakrishna, Srinivasan, UC San Diego, Bioengineering, Portfolio',
+  author: 'Shivaramakrishna Srinivasan',
   robots: 'index, follow',
 })
 </script>

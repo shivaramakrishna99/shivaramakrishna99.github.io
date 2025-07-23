@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="py-12">
+    <div class="pt-12 pb-48">
       <div class="layout-container">
         <h3>Connect</h3>
         <div class="flex flex-col space-y-2 sm:justify-between items-start">

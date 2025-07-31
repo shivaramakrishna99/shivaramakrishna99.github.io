@@ -1,6 +1,7 @@
 <template>
   <footer>
-    <div class="py-36 sm:py-48">
+    <div class="my-36 sm:my-48">
+      <hr class="border border-flexoki-light-bg-2 dark:border-flexoki-dark-ui-2"></hr>
       <div class="layout-container">
         <h3>Connect</h3>
         <div class="flex flex-col space-y-2 sm:justify-between items-start">
@@ -56,7 +57,7 @@
             </button>
           </p>
           <p class="text-sm flex items-center space-x-2">
-            <a href="mailto:s5srinivasan@ucsd.edu">
+            <a href="mailto:s5srinivasan@ucsd.edu" class="">
               <code>s5srinivasan@ucsd.edu</code>
             </a>
             <button

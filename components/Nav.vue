@@ -2,25 +2,25 @@
   <header>
     <div class="mt-4 sm:mt-8 py-2 sm:py-6 mx-auto max-w-5xl">
     <div
-    class="layout-container flex flex-row space-y-2 items-center justify-between"
+    class="layout-container flex flex-row space-y-2 items-end justify-between"
     >
       <NuxtLink to="/">
         <div class="flex items-center">
           <NuxtImg
             src="/img/utils/srks.png"
             alt="Logo"
-            class="h-8 w-8 sm:h-10 sm:w-10 mr-2 rounded-full shadow-none"
+            class="h-10 w-10 sm:h-12 sm:w-12 mr-2 rounded-full shadow-none"
           />
           <span class="sm:text-xl font-title hidden sm:inline">Shivaramakrishna Srinivasan</span>
-          <span class="text-lg sm:hidden font-title">Shivaramakrishna</span>
+          <span class="text-lg sm:hidden font-title font-black">Shiva</span>
         </div>
       </NuxtLink>
-      <nav class="flex items-start space-x-4">
+      <nav class="flex items-start space-x-2 sm:space-x-4">
         <NuxtLink
           v-for="(item, index) in navItems"
           :key="index"
           :to="item.url"
-          class="rounded-lg pr-4 font-normal hover:text-flexoki-light-bl transition duration-300 ease-in-out"
+          class="rounded-lg pr-4 font-bold text-sm tracking-tight uppercase sm:text-base font-title hover:text-flexoki-light-bl transition duration-300 ease-in-out"
         >
           {{ item.title }}
         </NuxtLink>

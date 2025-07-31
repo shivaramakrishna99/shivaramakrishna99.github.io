@@ -12,7 +12,7 @@
             class="h-8 w-8 sm:h-10 sm:w-10 mr-2 rounded-full shadow-none"
           />
           <span class="sm:text-xl font-title hidden sm:inline">Shivaramakrishna Srinivasan</span>
-          <span class="text-lg sm:hidden font-title">Shiva Srinivasan</span>
+          <span class="text-lg sm:hidden font-title">Shivaramakrishna</span>
         </div>
       </NuxtLink>
       <nav class="flex items-start space-x-4">
@@ -44,8 +44,8 @@ export default {
   data() {
     return {
       navItems: [
-        // { title: 'Projects', url: '/projects' },
         { title: 'Blog', url: '/writing' },
+        { title: 'Projects', url: '/projects' },
         // { title: 'Resume', url: '/resume' },
       ],
     }

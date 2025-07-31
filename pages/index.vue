@@ -2,10 +2,10 @@
   <div>
     <ContentDoc path="/" />
 
-    <section class="pb-12">
-      <h3 class="font-light tracking-normal mb-6">Projects</h3>
+    <section>
+      <!-- <h3 class="font-light tracking-normal mb-6">Projects</h3> -->
 
-      <div :class="{ 'blur-sm pointer-events-none': showModal }" class="grid grid-cols-1 sm:grid-cols-2 gap-6 transition duration-300">
+      <!-- <div :class="{ 'blur-sm pointer-events-none': showModal }" class="grid grid-cols-1 sm:grid-cols-2 gap-6 transition duration-300">
         <button
           v-for="project in projects"
           :key="project._id"
@@ -19,7 +19,7 @@
             {{ project.title }}
           </h3>
         </button>
-      </div>
+      </div> -->
 
       <!-- Modal -->
       <transition name="fade" appear>

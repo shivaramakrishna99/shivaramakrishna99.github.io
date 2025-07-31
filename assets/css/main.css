@@ -49,7 +49,7 @@ h6 {
 
 /* Paragraphs */
 p {
-  @apply text-sm sm:text-base font-sans font-normal leading-relaxed mb-6;
+  @apply text-base font-sans font-normal leading-relaxed mb-6;
 }
 p i, p em {
   @apply font-serif text-base sm:text-lg italic;

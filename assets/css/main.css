@@ -133,9 +133,12 @@ a[href^='http'], a[href^='mailto'] {
   p,
   ul,
   li,
+  strong,
+  em,
   ol,
   blockquote,
-  code
+  code,
+  a
   {
   @apply text-flexoki-dark-ui dark:text-flexoki-light-ui;
   }

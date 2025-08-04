@@ -20,7 +20,7 @@
           v-for="(item, index) in navItems"
           :key="index"
           :to="item.url"
-          class="rounded-lg pr-4 font-bold text-sm uppercase sm:text-base font-title hover:text-flexoki-light-bl transition duration-300 ease-in-out"
+          class="rounded-lg pr-4 font-bold text-base sm:text-lg font-sans hover:text-flexoki-light-bl transition duration-300 ease-in-out"
         >
           {{ item.title }}
         </NuxtLink>

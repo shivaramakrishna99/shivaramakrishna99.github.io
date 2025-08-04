@@ -1,8 +1,8 @@
 <template>
   <footer>
-    <div class="my-36 sm:my-48">
+    <div>
       <hr class="border border-flexoki-light-bg-2 dark:border-flexoki-dark-ui-2"></hr>
-      <div class="layout-container">
+      <div class="layout-container py-24">
         <h3>Connect</h3>
         <div class="flex flex-col space-y-2 sm:justify-between items-start">
           <div class="flex justify-start items-center space-x-4">
